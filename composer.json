@@ -1,0 +1,26 @@
+{
+    "name": "buzzingpixel/craft-clean-env",
+    "description": "A Clean Craft ENV for playing around with stuff",
+    "require": {
+        "php": ">=7.2",
+        "craftcms/cms": "^3.2"
+    },
+    "require-dev": {
+        "lucidtaz/yii2-whoops": "dev-master",
+        "phpmd/phpmd": "^2.6",
+        "phpunit/phpunit": "^7.2",
+        "roave/security-advisories": "dev-master",
+        "squizlabs/php_codesniffer": "^3.4",
+        "symfony/var-dumper": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "config": {
+        "bin-compat": "full",
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
